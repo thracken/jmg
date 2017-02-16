@@ -18,3 +18,15 @@
 
   <body>
     <div id="wrapper" class="container-fluid">
+      <nav class="navbar navbar-inverse navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" aria-expanded="false" data-toggle="collapse" data-target="#header-main-navbar-items" >
+          <a class="navbar-brand" href="#"><?php wp_title() ?></a>
+        </div>
+
+        <div class="collaps navbar-collapse" id="header-main-navbar-items">
+          <ul class="nav navbar-nav">
+            <?php wp_nav_menu() ?>
+          </ul>
+        </div><!-- #header-main-navbar-items -->
+      </nav>

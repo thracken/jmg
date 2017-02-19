@@ -25,8 +25,6 @@
         </div>
 
         <div class="collaps navbar-collapse" id="header-main-navbar-items">
-          <ul class="nav navbar-nav">
-            <?php wp_nav_menu(); ?>
-          </ul>
+            <?php wp_nav_menu( array('container-class' => 'nav navbar-nav') ); ?>
         </div><!-- #header-main-navbar-items -->
       </nav>

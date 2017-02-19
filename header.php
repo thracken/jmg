@@ -24,7 +24,9 @@
           <a class="navbar-brand" href="#"><?php wp_title(); ?></a>
         </div>
 
-        <div class="collaps navbar-collapse" id="header-main-navbar-items">
-            <?php wp_nav_menu( array('container-class' => 'nav navbar-nav') ); ?>
+        <div class="collapse navbar-collapse" id="header-main-navbar-items">
+          <ul class="nav navbar-nav">
+            <?php wp_nav_menu( array( 'items_wrap' => '%3$s' ) ); ?>
+          </ul>
         </div><!-- #header-main-navbar-items -->
       </nav>

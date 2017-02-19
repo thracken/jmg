@@ -26,7 +26,7 @@
 
         <div class="collapse navbar-collapse" id="header-main-navbar-items">
           <ul class="nav navbar-nav">
-            <?php wp_nav_menu( array( 'items_wrap' => '%3$s' ) ); ?>
+            <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'container' => '' ) ); ?>
           </ul>
         </div><!-- #header-main-navbar-items -->
       </nav>

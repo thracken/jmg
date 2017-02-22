@@ -17,15 +17,19 @@
   </head>
 
   <body>
-    <div id="wrapper" class="container-fluid">
+    <div id="wrapper" class="container">
       <nav class="navbar navbar-inverse navbar-default">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" aria-expanded="false" data-toggle="collapse" data-target="#header-main-navbar-items" >
-          <a class="navbar-brand" href="#"><?php wp_title(); ?></a>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="<?php bloginfo("wpurl"); ?>"><?php bloginfo("name"); ?></a>
         </div>
 
         <div class="collapse navbar-collapse" id="header-main-navbar-items">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-right">
             <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'container' => '' ) ); ?>
           </ul>
         </div><!-- #header-main-navbar-items -->

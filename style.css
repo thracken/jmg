@@ -11,6 +11,23 @@ Version: 0.1
 === HEADER
 */
 
+#wrapper{
+  padding: 0;
+}
+
+#header-navbar{
+  border-radius: 0;
+}
+
+/*
+=== BODY
+*/
+
+.blog-post{
+  width: 80%;
+  margin: auto;
+}
+
 /*
 === FOOTER
 */

@@ -4,7 +4,7 @@
 
   <div class="blog-post">
   <h1 class="clearfix"><span class="pull-left"><?php the_title(); ?></span> <small class="post-date pull-right"> <?php date_or_modified_date(); ?></small></h1>
-    <div>
+    <div class="post-body">
       <?php the_content(); ?>
     </div>
   </div>

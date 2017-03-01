@@ -8,6 +8,14 @@ Version: 0.1
 */
 
 /*
+=== GENERAL
+*/
+
+p{
+  font-size: 18px;
+}
+
+/*
 === HEADER
 */
 
@@ -27,6 +35,19 @@ Version: 0.1
 .blog-post{
   width: 80%;
   margin: auto;
+}
+
+.post-body{
+  margin-left: 30px;
+}
+
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5,
+.post-body h6{
+  margin-left: -15px;
 }
 
 /*

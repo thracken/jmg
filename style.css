@@ -15,6 +15,11 @@ p{
   font-size: 18px;
 }
 
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 /*
 === HEADER
 */
@@ -33,8 +38,10 @@ p{
 */
 
 .blog-post{
-  width: 80%;
-  margin: auto;
+}
+
+.post-date{
+  padding: 10px;
 }
 
 .post-body{

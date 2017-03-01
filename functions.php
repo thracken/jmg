@@ -3,9 +3,11 @@
 /**/
 function date_or_modified_date(){
   if ( get_the_date() == get_the_modified_date() ){
-    return the_date();
+    $date = the_date();
+    return "Published on: {$date}";
   } else {
-    return the_modified_date();
+    $date = the_modified_date();
+    return "Last modified on: {$date}";
   }
 }
 

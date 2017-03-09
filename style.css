@@ -15,6 +15,10 @@ p{
   font-size: 18px;
 }
 
+hr {
+  border-top: 1px solid #bbb;
+}
+
 .row{
   margin-left: 0px;
   margin-right: 0px;

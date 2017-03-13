@@ -18,19 +18,15 @@ body{
   color: #9d9d9d;
   background-color: #000;
 }
-
 a{
   color: #fff;
 }
-
 p{
   font-size: 18px;
 }
-
 hr {
   border-top: 1px solid #bbb;
 }
-
 .row{
   margin-left: 0px;
   margin-right: 0px;
@@ -39,18 +35,15 @@ hr {
 /*
 === HEADER
 */
-
 #wrapper{
   padding: 0;
   min-height: 100%;
   position: relative;
 }
-
 #header-navbar{
   border-radius: 0;
   padding: 0 8%;
 }
-
 .navbar{
   margin-bottom: 0;
 }
@@ -61,18 +54,14 @@ hr {
 #body{
   padding-bottom: 150px;
 }
-
 .blog-post{
 }
-
 .post-date{
   padding: 10px;
 }
-
 .post-body{
   margin-left: 30px;
 }
-
 .post-body h1,
 .post-body h2,
 .post-body h3,
@@ -81,7 +70,6 @@ hr {
 .post-body h6{
   margin-left: -15px;
 }
-
 #front-page-content{
   background-color: #000;
   background-size: 60%;
@@ -89,15 +77,9 @@ hr {
   background-repeat: no-repeat;
   position: relative;
 }
-
 #front-image-small{
   width: 100%;
 }
-
-#front-image-wrapper{
-
-}
-
 #front-image{
   width: 100%;
   z-index: 0;
@@ -105,7 +87,6 @@ hr {
   bottom: 0;
   right: 0;
 }
-
 
 /*
 === FOOTER
@@ -126,11 +107,6 @@ hr {
   display: inline-block;
   padding: 0 20px;
 }
-
 .footer-widget a{
   color: #ffffff;
 }
-
-/*
-=== SIDEBAR
-*/

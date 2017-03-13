@@ -11,12 +11,17 @@ Version: 0.1
 === GENERAL
 */
 html,
-body {
-   margin: 0;
-   padding: 0;
-   height: 100%;
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #9d9d9d;
+  background-color: #000;
 }
 
+a{
+  color: #fff;
+}
 
 p{
   font-size: 18px;
@@ -46,6 +51,10 @@ hr {
   padding: 0 8%;
 }
 
+.navbar{
+  margin-bottom: 0;
+}
+
 /*
 === BODY
 */
@@ -72,6 +81,31 @@ hr {
 .post-body h6{
   margin-left: -15px;
 }
+
+#front-page-content{
+  background-color: #000;
+  background-size: 60%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#front-image-small{
+  width: 100%;
+}
+
+#front-image-wrapper{
+
+}
+
+#front-image{
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 
 /*
 === FOOTER

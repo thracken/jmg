@@ -2,7 +2,7 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <?php get_template_part( 'content', get_post_format() ); ?>
-    <div class="blog-post row">
+    <div class="page-content row">
       <div class="col-lg-2 col-xs-1"></div>
 
       <div class="col-lg-8 col-xs-10">

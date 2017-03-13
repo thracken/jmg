@@ -24,4 +24,7 @@ function footer_widget_init() {
 }
 add_action( 'widgets_init', 'footer_widget_init' );
 
+/* Enables post/page thumbnails*/
+add_theme_support( 'post-thumbnails' );
+
 ?>

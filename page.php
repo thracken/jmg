@@ -6,7 +6,7 @@
       <div class="col-lg-2 col-xs-1"></div>
 
       <div class="col-lg-8 col-xs-10">
-        <h1><?php the_title(); ?></h1>
+        <h1 class="text-center"><?php the_title(); ?></h1>
         <?php the_content(); ?>
       </div>
 

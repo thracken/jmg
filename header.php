@@ -17,6 +17,7 @@
   </head>
 
   <body>
+    <div id="wrapper" class="container-fluid">
     <nav id="header-navbar" class="navbar navbar-inverse navbar-default">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" aria-expanded="false" data-toggle="collapse" data-target="#header-main-navbar-items" >
@@ -33,4 +34,4 @@
         </ul>
       </div><!-- #header-main-navbar-items -->
     </nav>
-    <div id="wrapper" class="container-fluid">
+    <div id="body">

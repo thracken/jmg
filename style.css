@@ -10,6 +10,13 @@ Version: 0.1
 /*
 === GENERAL
 */
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
 
 p{
   font-size: 18px;
@@ -30,6 +37,8 @@ hr {
 
 #wrapper{
   padding: 0;
+  min-height: 100%;
+  position: relative;
 }
 
 #header-navbar{
@@ -40,6 +49,9 @@ hr {
 /*
 === BODY
 */
+#body{
+  padding-bottom: 150px;
+}
 
 .blog-post{
 }
@@ -70,6 +82,8 @@ hr {
   width: 100%;
   min-height: 150px;
   padding: 25px;
+  position: absolute;
+  bottom: 0;
 }
 #footer-widgets{
   text-align: center;

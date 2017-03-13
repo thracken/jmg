@@ -64,6 +64,24 @@ hr {
 /*
 === FOOTER
 */
+#footer{
+  background-color: #222;
+  color: #9d9d9d;
+  width: 100%;
+  min-height: 150px;
+  padding: 25px;
+}
+#footer-widgets{
+  text-align: center;
+}
+.footer-widget{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.footer-widget a{
+  color: #ffffff;
+}
 
 /*
 === SIDEBAR
